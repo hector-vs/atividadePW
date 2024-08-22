@@ -1,1 +1,142 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 98.75vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+}
+
+ul li {
+    color: white;
+    padding: 30px;
+    font-size: .9em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section#main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+div#div1 {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#div1 img {
+    height: 220px;
+}
+
+div#div1 h1 {
+    font-size: 3em; 
+    font-weight: 600;
+}
+
+
+div#div2 {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#div2 div#caixa-form {
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    border-radius: 7px;
+    margin: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 8px;
+}
+
+form div input {
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+}
+
+form button {
+    width: 330px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1.02em;
+    font-weight: 300;
+}
+
+div.caixa-texto {
+    width: 90vw;
+    margin: 0 auto;
+    background-color: rgba(163, 163, 163, 0.164);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+div.caixa-texto h1 {
+    font-size: 2.05em;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+footer {
+    width: 98.75vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-size: .8em;
+}
