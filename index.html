@@ -25,7 +25,7 @@
             </div>
             <div id="div2">
                 <div id="caixa-form">
-                    <form>
+                    <form onsubmit="login(); return false">
                         <div>
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="Value">
@@ -34,7 +34,7 @@
                             <label for="pass">Password</label>
                             <input type="password" name="pass" id="pass" placeholder="Value">
                         </div>
-                        <button onclick="">Sign In</button>
+                        <button type="submit"">Sign In</button>
                         <a href="#" style="text-decoration: underline; color: black;">Forgot password?</a>
                     </form>
                 </div>
