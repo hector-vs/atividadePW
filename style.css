@@ -13,7 +13,7 @@ html {
 }
 
 header {
-    width: 98.75vw;
+    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@ div.caixa-texto h1 {
 }
 
 footer {
-    width: 98.75vw;
+    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -139,4 +139,18 @@ footer {
     color: white;
     padding: 20px;
     font-size: .8em;
+}
+
+section div#div-img {
+    display: flex;
+    align-items: center;
+}
+
+section div#div-img img {
+    height: 100px;
+}
+section div#div-img h1{
+    font-size: 2.4em;
+    font-weight: 400;
+    margin-left: 45px;
 }
