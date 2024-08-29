@@ -173,6 +173,10 @@ section div#div-text {
     gap: 20px;
 }
 
+section div#div-text h2 {
+    margin-top: 20px;
+}
+
 div#campo-tabuada, ul#lista-tabuada {
     display: flex;
     flex-direction: column;
@@ -184,7 +188,8 @@ ul#lista-tabuada {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
+    gap: 0;
+    padding: -100px;
 }
 
 ul#lista-tabuada li {
