@@ -11,3 +11,20 @@ function login() {
         alert("Usuário inválido!")
     }
 }
+
+function pesquisar() {
+    var url = document.getElementById("url").value
+    alert("Redirecionando...")
+    window.location.href = url;
+}
+
+function tabuada() {
+    var numero = document.getElementById("numeroTab").value
+    var lista = document.getElementById("lista-tabuada")
+
+    for(let i = 1; i < 11 ; i++){
+        const el = document.createElement('li');
+        el.innerText = `${numero} x ${i} = ${numero * i}`
+        lista.appendChild(el)
+    }
+}

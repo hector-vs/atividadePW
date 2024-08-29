@@ -98,7 +98,7 @@ form div {
     gap: 8px;
 }
 
-form div input {
+form div input, section div#div-text input {
     width: 330px;
     height: 35px;
     border-radius: 5px;
@@ -108,7 +108,7 @@ form div input {
     border: 1px solid rgba(0, 0, 0, 0.349);
 }
 
-form button {
+form button, section div#div-text button {
     width: 330px;
     border: none;
     cursor: pointer;
@@ -161,9 +161,31 @@ section div#div-img h1{
     margin-left: 45px;
 }
 section div#div-text {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #cccccc8a;
     margin: 25px 100px 20px 100px;
     padding-bottom: 500px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+div#campo-tabuada, ul#lista-tabuada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+ul#lista-tabuada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+ul#lista-tabuada li {
+    color: black;
 }

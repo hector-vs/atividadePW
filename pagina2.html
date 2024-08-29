@@ -11,7 +11,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="#sobre">SOBRE</a></li>
                 <li><a href="#contato">CONTATO</a></li>
             </ul>
@@ -24,13 +24,19 @@
                 <h1>Minha primeira página HTML</h1>
             </div>
             <div id="div-text">
-
+                <h2>Digite uma URL para acessá-la!</h2>
+                <input type="text" name="url" id="url" value="https://">
+                <button onclick="pesquisar()">Pesquisar</button>
+                <div id="campo-tabuada">
+                    <label for="numeroTab">Selecione um número para gerar sua tabuada:</label>
+                    <input type="number" name="numeroTab" id="numeroTab">
+                    <button onclick="tabuada()">gerar</button>
+                    <ul id="lista-tabuada">
+                        
+                    </ul>
+                </div>
             </div>
-
-
         </section>
-
-        
     </main>
 
     <footer>2024 &copy; Todos os direitos reservados</footer>
